@@ -1,0 +1,12 @@
+---
+full_project_name:
+  description: The full name of the project, included spaces and punctuation
+  type: string
+project_slug:
+  description: The short name of the project, used in URLs and file names
+  type: string
+  default: "${slugify(full_project_name)}"
+project_description:
+  description: A short description of the project
+  type: string
+  default: "${full_project_name}"

@@ -1,0 +1,11 @@
+Comments:
+Variables:
+Hey there Cora!
+Hello Cora.
+Hi Cora.
+Hey Cora.
+verbose = Boolean
+
+Control Structures:
+
+This is a verbose message.

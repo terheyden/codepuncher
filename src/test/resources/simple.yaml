@@ -1,0 +1,29 @@
+---
+name: Cora # String
+age: 12    # Integer
+colors:    # ArrayList
+  - grey
+  - white
+  - orange
+  - black
+colors2: [grey, white, orange, black] # ArrayList
+address: # LinkedHashMap
+  street: 123 Main St
+  city: Anytown
+  state: CA
+address2: { street: 123 Main St, city: Anytown, state: CA } # LinkedHashMap
+single_line: > # note there is a newline at the end, when it's parsed
+  all these
+  get joined
+  into one line
+multi_line: | # two newlines in this one
+  line breaks
+  are preserved
+enabled: true     # Boolean
+disabled: false   # Boolean
+last_login: null  # Java null
+fun_with_strings: # ArrayList of LinkedHashMaps
+  - string1: "Hi I'm string1"
+  - string2: Hi I'm string2
+  - string3: 'Hi I''m string3'
+  - string4: Hi I'm "string4" I guess!

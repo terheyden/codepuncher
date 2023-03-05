@@ -1,0 +1,24 @@
+Comments:
+<%/* This is a comment */%>\
+<%
+    // This is a comment also.
+    // The trailing backslash joins lines in Groovy,
+    // meaning no newline is left behind.
+    //
+    // In the output you should see "Comments:"
+    // followed immediately by: "Variables:"
+%>\
+Variables:
+Hey there $name!
+Hello ${name}.
+Hi <%= name %>.
+Hey <% print name %>.
+verbose = ${verbose.class.simpleName}
+
+Control Structures:
+
+<% if (verbose) { %>\
+This is a verbose message.
+<% } else { %>\
+This is a non-verbose message.
+<% } %>\
